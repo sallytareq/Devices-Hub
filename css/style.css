@@ -1,0 +1,54 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-image: url("../img/background.jpg") ;
+  /* background-repeat: no-repeat;*/
+  background-size: cover; 
+}
+header{
+  text-align: center;
+  color: #f5f5f5;
+  font-weight: 200;
+  font-size: xx-large;
+  background-color: rgb(93, 93, 93);
+  width: 100%;
+  top: 0;
+  position: fixed;
+
+}
+main{
+  margin-top: 13%;
+}
+main section {
+  display: inline-grid;
+  color: black;
+  background-color: darkgray;
+  margin-top: 6%;
+  padding: 3%;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 10%;
+}
+
+#form {
+  width:20%;
+  height: 300px;
+}
+
+input, #category{
+  width: 80%;
+}
+#submit{
+  background-color: black;
+  color: #f5f5f5;
+}
+
+table{
+  background-color: #F5F5DC;
+}
+
+th, td {
+  padding: 10px;
+  border: thick hidden ;    
+}
