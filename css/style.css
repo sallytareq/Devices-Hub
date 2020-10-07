@@ -35,9 +35,10 @@ main section {
   width:20%;
   height: 300px;
 }
-
-input, #category{
+input, #category {
   width: 80%;
+  border-radius: 3px;
+  height: 33px;
 }
 #submit{
   background-color: black;
